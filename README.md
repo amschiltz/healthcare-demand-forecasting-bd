@@ -6,6 +6,40 @@
 
 This project develops break-aware time-series models to forecast healthcare call demand across the COVID-Era structural break in Bangladesh.
 
+## Key Results
+- **Best Model:** ARIMA(1,1,1)
+- **Test Performance:**
+    - MAE: 16,416
+    - RMSE: 21,869
+    - MAPE: **10.34%**
+- **Baseline Comparison:**
+    - Seasonal Naive: ~74% MAPE
+    - ETS: ~75% MAPE
+
+## Final Test Forecast
+
+![Final Forecast](reports/figures/final_test_forecast_zoomed.png)
+
+The ARIMA model substantially outperformed simpler baselines, indicating that short-term dynamics and structural changes dominate over stable seasonal patterns.
+
+## Project Summary
+This project develops time-series models to forecast healthcare call demand using monthly call volume data from Bangladesh’s national health portal.
+
+The analysis focuses on handling a major structural break during the COVID-19 pandemic, which disrupted historical patterns and reduced the effectiveness of traditional seasonal models.
+
+Key findings:
+- Models relying on year-over-year seasonality (ETS, Seasonal Naive) performed poorly
+- A log-transformed ARIMA model achieved strong performance (~10% error)
+- Forecasts suggest the series is relatively stable post-COVID, with limited predictable seasonal structure
+
+## Problem Statement
+Accurately forecasting healthcare call demand is critical for:
+- staffing and resource allocation
+- emergency response planning
+- maintaining service accessibility
+
+However, the COVID-19 pandemic introduced a structural break, making traditional forecasting approaches less reliable.
+
 ## Project Organization
 
 ```
