@@ -6,6 +6,17 @@
 
 This project develops break-aware time-series models to forecast healthcare call demand across the COVID-Era structural break in Bangladesh.
 
+## Data Sources
+
+- **Healthcare Call Data (Bangladesh Health Portal)**  
+  Directorate General of Health Services (DGHS), Government of Bangladesh  
+  http://16263.dghs.gov.bd/report/report.php  
+  (Accessed: March 18, 2025)
+
+- **Kaggle Dataset (Curated Version)**  
+  Basak, S. (2025). *Healthcare Call Data Analysis During Emergency Times*  
+  https://www.kaggle.com/datasets/shuvokumarbasak2030/healthcare-call-data-analysis-duringemergencytimes/data
+
 ## Key Results
 - **Best Model:** ARIMA(1,1,1)
 - **Test Performance:**
@@ -39,6 +50,7 @@ Accurately forecasting healthcare call demand is critical for:
 - maintaining service accessibility
 
 However, the COVID-19 pandemic introduced a structural break, making traditional forecasting approaches less reliable.
+
 
 ## Project Organization
 
