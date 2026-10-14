@@ -189,6 +189,3 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
-
-# Test copy of notebook
-notebooks/0.2-ams-forecast-modeling_copy.ipynb

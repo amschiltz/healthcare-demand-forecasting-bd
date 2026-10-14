@@ -120,8 +120,9 @@ The ARIMA model substantially outperformed simpler baselines, indicating that sh
 ├── models             <- Trained and serialized models, model predictions, or model summaries
 │
 ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
+│   |                     the creator's initials, and a short `-` delimited description, e.g.
+│   |                     `1.0-jqp-initial-data-exploration`.
+│   └── archive        <- Archived notebooks retained for reproducibility checks
 │
 ├── pyproject.toml     <- Project configuration file with package metadata for 
 │                         healthcare_demand and configuration for tools like black
